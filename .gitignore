@@ -1,0 +1,13 @@
+# 
+#  .gitigrone文件存放在项目的根目录下，  是一个专门配置忽略文件的规则，一行就是一个规则
+#
+# 配置要忽略的文件
+#  
+# 忽略文件名是 foo.txt
+foo.text
+
+# 忽略所有的 log 文件
+ *.log
+
+# 但是 import.log  除外
+ !import.log
